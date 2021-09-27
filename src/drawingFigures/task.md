@@ -9,7 +9,7 @@ Konsole anbietet.
 2. Implementiere eine UI-Klasse, in der ein Quadrat beliebiger Größe gezeichnet wird.
 3. Implementiere in der Klasse `DrawingFigures`die Methode `public void drawRhombus(int diameter)`. Sie zeichnet eine Raute mit dem 
 entsprechenden Durchmesser. Der Durchmesser muss zwischen 5 und 50 liegen und ein ungerader Wert sein. 
-4. Implementiere in der vorhandenen UI-Klasse die Möglichkeit, ieine Raute beliebiger Größe zu zeichnen.
+4. Implementiere in der vorhandenen UI-Klasse die Möglichkeit, eine Raute beliebiger Größe zu zeichnen.
 
 **Beispiele:** 
 
