@@ -2,6 +2,7 @@ package tableOfContents;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
@@ -24,6 +25,7 @@ public class TableOfContentsTest {
         assertEquals(result, toc.createEntry(heading, page));
     }
 
+    @Test
     public void givenNotCompatibleHeading_WhenCreateEntry_ThenReturnEmptyString() {
         assertEquals("", toc.createEntry("Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod  tempor invidunt ut labore", "34"));
     }
