@@ -20,7 +20,7 @@ public class Generator {
             }
             stringbuilder.deleteCharAt(stringbuilder.length() - 1);
         }
-        return stringbuilder.toString();
+         return stringbuilder.toString();
     }
 
 }
