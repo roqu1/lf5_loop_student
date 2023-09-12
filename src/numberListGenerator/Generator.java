@@ -6,12 +6,12 @@ public class Generator {
         StringBuilder stringbuilder = new StringBuilder();
         if (start < end) {
             for (int i = start; i <= end; i++) {
-                return stringbuilder.append(i).append(",").toString();
+                 stringbuilder.append(i).append(",");
             }
+            stringbuilder.deleteCharAt(stringbuilder.length() - 1);
         }
         return stringbuilder.toString();
     }
-
     public String generateNumbers(int start, int end, int steps, char delimiter) {
         StringBuilder stringbuilder = new StringBuilder();
         if (start < end) {
