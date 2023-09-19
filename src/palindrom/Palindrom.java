@@ -2,7 +2,6 @@ package palindrom;
 
 public class Palindrom {
     public boolean isPalindrom(String text){
-        // divide the text in two parts and save them in two variables
         String dividedTextSecond = text.substring((text.length()+1)/2);
         String dividedTextFirst = text.substring(0, text.length()/2);
         String reverseTextSecond = new StringBuffer(dividedTextSecond).reverse().toString();
